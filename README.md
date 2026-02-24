@@ -3,8 +3,9 @@ Web-API for [whiskyhunter.net](https://whiskyhunter.net) website for collectors,
 
 ## Example
 ```python
-import whisky_hunter
-whisky_hunter = whisky_hunter.WhiskyHunter()
+from whisky_hunter import WhiskyHunter
+
+whisky_hunter = WhiskyHunter()
 auctions_info = whisky_hunter.get_auctions_info()
 print(auctions_info)
 ```
